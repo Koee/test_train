@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+       .header{
+            height: 50px;
+            width:100%;
+            display: flex;
+            background: rgba(0, 0, 0, 0.75);
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header>a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .content{
+            background: rgb(250,250,250)
+        }
+        .sp-hot{
+            position: relative;
+            height: 700px;
+          margin-bottom: 10px;
+        }
+        div.absolute{
+            position: absolute;
+            top:20%;
+            bottom: 80%;
+            left: 50%;
+            font-size: 50px;
+        }
+        p.ab{
+           position: absolute;
+            top: 25%;
+            bottom: 80%;
+            left: 38%;
+            font-size: 40px;
+        }
+        img.ab{
+            position: absolute;
+            top: 5%;
+            bottom: 80%;
+            left: 49%;       
+        }
+        img.ac{
+            position: absolute;
+    top: 5%;
+    bottom: 80%;
+    left: 39%;
+        }
+        p.text{
+            position: absolute;
+            top: 16%;
+    bottom: 66%;
+    left: 33%;
+    size: 50px;
+    color: white;
+        }
+        p.a{
+            
+            position: absolute;
+    top: -18%;
+    bottom: 66%;
+    left: 39%;
+    font-size: 30px;
+    color: black;
+        }
+        .sp-hot img{
+            width: 100%;
+            height: 100%;
+        }
+        .sp-phu{
+            position: relative;
+            margin: 10px;
+            background: rgb(250,250,250);
+            height: 521px;
+        }
+        .sp-trai{
+            background: rgb(250,250,250);
+            position: relative;
+            width: 49.8%;
+            float: left;
+            height: 100%;
+            padding-top: 0
+        }
+        .sp-trai img{
+            height: 100%;
+            width: 100%;
+        }
+        .sp-phai{
+            background: rgb(250,250,250);
+            position: relative;
+            height: 100%;
+            float: right;
+            width: 49.8%;
+        }
+        .sp-phai img{
+            height: 100%;
+            width: 100%;
+        }
+        .footer{
+            padding: 10px;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(0, 0, 0,0.75);
+        }
+        .footer>h4{
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a style="padding-left: 200px" href="#">iphone</a>
+        <a href="#">Mac</a>
+        <a href="#">Ipad</a>
+        <a href="#">Apple</a>
+        <a href="#">Watch</a>
+        <a href="#">TV</a>
+        <a href="#">Mucsic</a>
+        <a href="#">Suppor</a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </header>
+    <section class="content">
+        <div class="sp-hot"><img src="img-apple/iphone_8_largetall_2x.jpg" alt="photo">
+             <div class="absolute">IPHONE 8</div>
+             <p class="ab">A New generation of iphone</p>
+        </div>
+        <div class="sp-hot"><img src="img-apple/iphone_x_largetall_2x.jpg" alt="photo">
+            <div class="absolute">IPHONE X</div>
+            <p class="ab">A New generation of iphone</p></div>
+        <div class="sp-hot"><img src="img-apple/watch_largetall_2x.jpg" alt="photo">
+            <img style="height: 75px;
+            width: 100px;" class="ab" src="img-apple/watch_series_3_large_2x.png" alt="photo">
+        </div>
+        <div class="sp-phu">
+            <div class="sp-trai"><img src="img-apple/tv_4k_large_2x.jpg" alt="photo">
+            <img style="height: 60px;
+            width: 100px;"class="ac"src="img-apple/tv_4k_logo_large_2x.png" alt="photo">
+            <p class="text">The 4kHDR era. Now play</p></div>
+            <div style="    margin-top: 57px;
+            height: 460px;
+        "class="sp-phai"><img src="img-apple/ios_large_2x.jpg" alt="photo">
+            <p class="a">
+                iOS11
+            </p>
+            </div>
+        </div>
+        <div class="sp-phu">
+                <div class="sp-trai"><img src="img-apple/watchos_large_2x.jpg" alt="photo"></div>
+                <div class="sp-phai"><img src="img-apple/macos_high_sierra_large_2x.jpg" alt="photo"></div>
+            </div>
+    </section>
+    <footer class="footer">
+        <h4>@design by Koee</h4>    
+    </footer>
+</body>
+</html>
